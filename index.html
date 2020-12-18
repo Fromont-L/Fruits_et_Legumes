@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="ASSETS/css/style.css"/>
+	<title>Mon Panier Frais</title>
+</head>
+
+<body id="font">
+	<!--Entête de page-->
+	<div class="container-fluid">
+		<header class="row">
+			<div class="col-12">
+				<img class="entete" src="ASSETS/images/banniere/banniere.jpeg" height="auto" width="100%"/>
+			</div>		
+		</header>
+	</div>
+	<!--Fin entête de page-->
+	<!--Selection-->
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1 class="title">Bienvenue sur le site de Lise et Paul LARGE</h1>
+				<h2 class="under-title">Selectionnez la catégorie que vous désirez</h2>
+			</div>
+		</div>
+		<!--Première carte (Légumes)-->
+		<div class="row py-2">
+			<div class="col-sm-6 col-md-3">
+				<div class="card mb-3">
+					<div class="card border-light mb-3">
+					  	<div class="card-header">
+					  	<button id="togg1" type="button" class="btn btn-primary" onClick="show('d1'); hide('d1')">Légumes</button>
+					  	</div>
+					  	<div id="d1" class="card-body">
+					  		<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/legumes/aubergine.png" width="50" height="50"/>
+						    		<p class="card-text">Aubergines
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">		    	
+							    	<img class="imgumes" src="ASSETS/images/legumes/carotte.png" width="50" height="50"/>
+						    		<p class="card-text">Carottes
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/legumes/oignons.png" width="50" height="50"/>
+						    		<p class="card-text">Oignons
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">	    	
+							    	<img class="imgumes" src="ASSETS/images/legumes/courgette.png" width="50" height="50"/>
+						    		<p class="card-text">Courgettes
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">							    	
+							    	<img class="imgumes" src="ASSETS/images/legumes/tomate.png" width="50" height="50"/>
+						    		<p class="card-text">Tomates
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">		    	
+							    	<img class="imgumes" src="ASSETS/images/legumes/petitpois.png" width="50" height="50"/>
+						    		<p class="card-text">Petits pois
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin de la première carte (Légumes)-->
+			<!--Deuxième carte (Fruits)-->
+			<div class="col-sm-6 col-md-3">
+				<div class="card mb-3">
+					<div class="card border-light mb-3">
+					  	<div class="card-header">
+					  	<button id="togg2" type="button" class="btn btn-primary">Fruits</button>
+					  	</div>
+					  	<div id="d2" class="card-body">
+					  		<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/fruits/cerises.png" width="50" height="50"/>
+						    		<p class="card-text">Cerises
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">		    	
+							    	<img class="imgumes" src="ASSETS/images/fruits/fraise.png" width="50" height="50"/>
+						    		<p class="card-text">Fraises
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/fruits/pomme.png" width="50" height="50"/>
+						    		<p class="card-text">Pommes
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">	    	
+							    	<img class="imgumes" src="ASSETS/images/fruits/prune.png" width="50" height="50"/>
+						    		<p class="card-text">Prunes
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">							    	
+							    	<img class="imgumes" src="ASSETS/images/fruits/raisins.png" width="50" height="50"/>
+						    		<p class="card-text">Raisins
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin deuxième carte (Fruits)-->
+			<!--Troisième carte (Confitures)-->
+			<div class="col-sm-6 col-md-3">
+				<div class="card mb-3">
+					<div class="card border-light mb-3">
+					  	<div class="card-header">
+					  	<button id="togg3" type="button" class="btn btn-primary">Confitures</button>
+					  	</div>
+					  	<div id="d3" class="card-body">
+					  		<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/confitures/conffraise.png" width="50" height="50"/>
+						    		<p class="card-text">Fraises
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">		    	
+							    	<img class="imgumes" src="ASSETS/images/confitures/confcoings.png" width="50" height="50"/>
+						    		<p class="card-text">Coings
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgumes" src="ASSETS/images/confitures/confcerises.png" width="50" height="50"/>
+						    		<p class="card-text">Cerises
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin troisième carte (Confitures)-->
+			<!--Quatrième carte (Boissons)-->
+			<div class="col-sm-6 col-md-3">
+				<div class="card mb-3">
+					<div class="card border-light mb-3">
+					  	<div class="card-header">
+					  	<button id="togg4" type="button" class="btn btn-primary">Boissons</button>
+					  	</div>
+					  	<div id="d4" class="card-body">
+					  		<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgboisson" src="ASSETS/images/boisson/jusdepomme.png" width="30" height="30"/>
+						    		<p class="card-text">Pomme
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">		    	
+							    	<img class="imgboisson" src="ASSETS/images/boisson/jusdeframboise.png" width="30" height="30"/>
+						    		<p class="card-text">Framboise
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">
+							    	<img class="imgboisson" src="ASSETS/images/boisson/jusdemyrtilles.png" width="30" height="30"/>
+						    		<p class="card-text">Myrtille
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+							<form class="form-inline" role="form">
+							    <div class="d-inline-flex flex-row">	    	
+							    	<img class="imgboisson" src="ASSETS/images/boisson/jusdemures.png" width="30" height="30"/>
+						    		<p class="card-text">Mûre
+							    	</p>
+								<input type="checkbox" class="form-check-input" id="checkbox"/>
+								<label class="form-check-label" for="checkbox"></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--Fin de la quatrième liste (Boissons)-->
+		</div>
+	</div>
+	<!--Bouton résultat-->
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="card">
+					<div class="card border-light mb-3">
+						<div class="card-header">
+							<button id="result" type="button" class="btn btn-success">Voir mes articles</button>
+						</div>
+						<div id="listresult" class="card-body">
+							<!--Incomplet :(-->
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!--Fin sélection-->
+	<!--Validation-->
+
+	<!--Fin validation-->
+
+	<!--jQuery first, then Popper.js, then Bootstrap JS + script.js-->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="ASSETS/js/script.js"></script>
+</body>
+
+</html>
